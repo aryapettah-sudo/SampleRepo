@@ -6,8 +6,20 @@ public class InterfaceChild implements Interface1{
 		InterfaceChild obj=new InterfaceChild();
 		obj.display();
 		obj.print();
+		obj.show();
+		
+		//refernce creation
+		
+		Interface1 obj1 = new InterfaceChild();
+		obj1.display();
+		obj1.print();
+	
 
 	
+	}
+	
+	public void show() {
+		System.out.println("Hi");
 	}
 
 	@Override
